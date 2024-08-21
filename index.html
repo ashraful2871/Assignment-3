@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+
+    <!-- DaisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <style>
+        .manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+
+    <!-- Font Woesome CDn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="manrope">
+    <!-- header section -->
+    <header class="bg-gradient-to-t from-[#ffffff04] to-[#eaecec9d] p-5">
+        <div class="container mx-auto">
+            <div class="navbar pt-8">
+                <div class="navbar-start relative">
+                    <div class="dropdown relative">
+                        <div tabindex="0" role="button"
+                            class="btn btn-ghost bg-[#ffffff] absolute left-80 lg:hidden rounded-full md:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a class="hover:font-bold hover:duration-300">Home</a></li>
+                            <li><a class="hover:font-bold hover:duration-300">Services</a></li>
+                            <li><a class="hover:font-bold hover:duration-300">Portfolio</a></li>
+                            <li><a class="hover:font-bold hover:duration-300">Blogs</a></li>
+                            <li><a class="hover:font-bold hover:duration-300">Contact Us</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="absolute top-2 md:-top-6 ">
+                        <a class="flex items-center">
+                            <div>
+                                <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] p-1 rounded-full"></i>
+                            </div>
+                            <div><span class="text-3xl font-extrabold ml-2 mt-4">Rinterio</span></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="hover:font-bold hover:duration-300">Home</a></li>
+                        <li><a class="hover:font-bold hover:duration-300">Services</a></li>
+                        <li><a class="hover:font-bold hover:duration-300">Portfolio</a></li>
+                        <li><a class="hover:font-bold hover:duration-300">Blogs</a></li>
+                        <li><a class="hover:font-bold hover:duration-300">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end invisible md:visible">
+                    <div class="mr-4 bg-white"><i class="fa-solid fa-magnifying-glass text-2xl"></i>
+                    </div>
+                    <div class="mr-4 bg-white"><i class="fa-solid fa-cart-shopping text-2xl"></i></div>
+                    <div>
+
+                        <a class="btn bg-[#ABEF5F] font-extrabold text-xl rounded-3xl">Book Consult <i
+                                class="fa-solid fa-arrow-right -rotate-45 bg-[#1C1C1C] text-white p-1 rounded-full"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center mt-14">
+            <div>
+                <img src="assets/banner.png" alt="">
+            </div>
+            <div class="text-center space-y-8">
+                <h1 class="text-4xl md:text-6xl font-extrabold">A barn house of this design has a<br>
+                    striking appearance
+                </h1>
+                <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                    weathered wood, sleek
+                    metal <br>accents, and large windows that flood the space with natural light.</p>
+                <div class="">
+                    <button class="bg-[#ABEF5F80] text-xl font-extrabold px-6 py-3 rounded-full w-full md:w-52">
+                        View Details
+                        <i class="fa-solid fa-arrow-right -rotate-45 bg-[#7dca267e] p-1 rounded-full ml-2"></i></button>
+
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- main content -->
+    <main></main>
+
+    <!-- footer section -->
+    <footer></footer>
+</body>
+
+</html>
