@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinterio</title>
+    <link rel="stylesheet" href="style.css">
 
     <!-- DaisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -56,7 +57,7 @@
                     <div class="absolute top-2 md:-top-6 ">
                         <a class="flex items-center">
                             <div>
-                                <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] p-1 rounded-full"></i>
+                                <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F]  p-1 rounded-full"></i>
                             </div>
                             <div><span class="text-3xl font-extrabold ml-2 mt-4">Rinterio</span></div>
                         </a>
@@ -77,7 +78,8 @@
                     <div class="mr-4 bg-white"><i class="fa-solid fa-cart-shopping text-2xl"></i></div>
                     <div>
 
-                        <a class="btn bg-[#ABEF5F] font-extrabold text-xl rounded-3xl">Book Consult <i
+                        <a class="btn bg-[#ABEF5F] hover:bg-[#8cd43a] font-extrabold text-xl rounded-3xl">Book Consult
+                            <i
                                 class="fa-solid fa-arrow-right -rotate-45 bg-[#1C1C1C] text-white p-1 rounded-full"></i></a>
 
                     </div>
@@ -96,7 +98,8 @@
                     weathered wood, sleek
                     metal <br>accents, and large windows that flood the space with natural light.</p>
                 <div>
-                    <button class="bg-[#ABEF5F80] text-xl font-extrabold px-6 py-3 rounded-full w-full md:w-52">
+                    <button
+                        class="bg-[#ABEF5F80] hover:bg-[#8cd43a] text-xl font-extrabold px-4 btn py-3 rounded-full w-full md:w-52">
                         View Details
                         <i class="fa-solid fa-arrow-right -rotate-45 bg-[#7dca267e] p-1 rounded-full ml-2"></i></button>
 
@@ -165,7 +168,7 @@
         <!-- Our Work Process -->
         <section class="mb-32 space-y-5 p-5">
             <div class="text-center">
-                <button class="bg-white py-1 px-6 rounded-full font-bold"><i
+                <button class="btn hover:bg-[#8cd43a] bg-white py-1 px-6 rounded-full font-bold"><i
                         class="fa-solid fa-arrow-right mr-2"></i>How we works</button>
             </div>
             <div class="space-y-4">
@@ -244,10 +247,11 @@
         </section>
 
         <!-- Latest Portfolio -->
-        <section class="mb-32 lg:bg-white p-4 lg:p-0">
+        <section class="mb-32 lg:bg-white p-4 lg:p-0 lg:pb-32">
             <div class="space-y-5 container mx-auto">
                 <div class="text-center lg:pt-32">
-                    <button class="bg-[#acef5f42] lg:text-xl font-extrabold px-6 py-2 rounded-full">
+                    <button
+                        class="bg-[#acef5f42] btn hover:bg-[#8cd43a] lg:text-xl font-extrabold px-6 py-2 rounded-full">
                         <i class="fa-solid fa-arrow-right  mr-2"></i>
                         Explore our Latest works
                     </button>
@@ -328,6 +332,47 @@
                     </div>
 
                 </div>
+            </div>
+        </section>
+
+        <!-- Let’s Discuss Next Project -->
+        <section class="mb-32 space-y-5 bg-img p-4 lg:p-0">
+            <div class="text-center pt-28">
+                <button class="btn hover:bg-[#8cd43a] bg-[#acef5f42] lg:text-xl font-extrabold px-6 py-2 rounded-full">
+                    <i class="fa-solid fa-arrow-right  mr-2"></i>
+                    Let’s Connect
+                </button>
+            </div>
+            <div class="space-y-4">
+                <h3 class="text-3xl lg:text-4xl font-extrabold text-center">Let’s Discuss Next Project
+                </h3>
+                <p class="text-center">The barn house captivates with its blend of rustic charm
+                    and
+                    modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
+            </div>
+
+            <!-- input field -->
+            <div class="container mx-auto flex justify-center flex-col lg:flex-row items-center gap-5">
+                <input type="text" placeholder="First Name*"
+                    class="input input-ghost w-full max-w-xs bg-white rounded-full" />
+                <input type="text" placeholder="Last Name*"
+                    class="input input-ghost w-full max-w-xs bg-white rounded-full" />
+            </div>
+            <div class="container mx-auto flex justify-center flex-col lg:flex-row items-center gap-5">
+                <input type="text" placeholder="Phone Number*"
+                    class="input input-ghost w-full max-w-xs bg-white rounded-full " />
+                <input type="text" placeholder="Email Address*"
+                    class="input input-ghost w-full max-w-xs bg-white rounded-full" />
+            </div>
+            <div class="container mx-auto flex justify-center">
+                <textarea class="bg-white textarea textarea-ghost w-80 lg:w-[43%] h-60"
+                    placeholder="Write your message here"></textarea>
+            </div>
+            <div class="container mx-auto flex justify-center pb-24">
+
+                <a class="btn bg-[#ABEF5F] font-extrabold text-xl rounded-3xl w-80 lg:w-[43%] hover:bg-[#8cd43a]">Send
+                    Mail<i class="fa-solid fa-arrow-right -rotate-45 bg-[#1C1C1C] text-white p-1 rounded-full"></i></a>
+
             </div>
         </section>
     </main>
